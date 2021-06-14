@@ -10987,5 +10987,5 @@ header.masthead h1, header.masthead .h1 {
 
 #portfolio .iconos:hover {
   transition: all 0.3s ease-in;
-  transform: translate(8px);
+  transform: translateY(-4px);
 }
