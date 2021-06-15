@@ -56,4 +56,9 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+    let animacionesGsap = gsap.from('.sub', {
+        duration: .7,
+        y: -200,
+        scale: 1,  
+    })
 });
