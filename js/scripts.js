@@ -56,11 +56,20 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
-    function animacioninicial (){gsap.from('.sub', {
-        duration: .7,
-        y: -200,
-        scale: 1,  
-    })
+    function animacioninicial (){      
+        gsap.from('.sub', {
+            duration: .7,
+            y: -200,
+            scale: 1,  
+        })
+        gsap.from('.titulo', {
+            duration: 8,
+            x: -100,
+            opacity: 0,
+            ease: 'elastic'
+        })
+
     }
+
     animacioninicial();
 });
