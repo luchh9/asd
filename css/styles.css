@@ -10969,44 +10969,32 @@ header.masthead h1, header.masthead .h1 {
 .container-fluid,  .container-sm,  .container-md,  .container-lg,  .container-xl,  .container-xxl {
   max-width: 1920px;
 }
+
 .titulo{
   margin-bottom: 5%;
   margin-top: 5%;
-  font-size: 3.3rem;
+  font-size: 3.1rem;
   font-family: 'Open Sans', sans-serif;
-  white-space: nowrap;
   overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-.text{
-  border-right: 4px solid black;
-  font-size: 180%;
-  white-space: nowrap;
-  overflow: hidden;
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
-.animacion{
-  animation: typewriter 4s steps(35) 1s 1 normal both,
-             blinkCursor 750ms steps(15) infinite normal;
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 660px;
-  }
-}
-
-@keyframes blinkCursor{
-  from {
-    border-right-color: black;
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
 #portfolio .iconos {
   margin: 30px 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
