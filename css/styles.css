@@ -7336,6 +7336,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   color: #1d2d88 !important;
+  font-size: 2rem;
 }
 
 .text-secondary {
