@@ -11001,3 +11001,13 @@ header.masthead h1, header.masthead .h1 {
 .social:hover {
   color: #0A1D37;
 }
+
+#logo1{
+  width: 3.5rem;
+  height: 4rem;
+}
+
+#logo2{
+    width: 5rem;
+    height: 3rem;
+}

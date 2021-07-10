@@ -69,6 +69,17 @@ window.addEventListener('DOMContentLoaded', event => {
             ease: 'elastic'
         })
 
+        gsap.fromTo('#logo1',
+            {x:-200},
+            {duration: 6,x:4, y:-35,ease:'elastic'}
+            )
+
+        gsap.fromTo('#logo2',
+        {x: 300},
+        {duration: 6,x:-50,ease:'elastic'}
+        )
+
+
     }
 
     animacioninicial();
