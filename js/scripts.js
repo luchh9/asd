@@ -70,7 +70,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     gsap.fromTo(
       "#logo1",
       { x: -200 },
-      { duration: 6, x: 4, y: -34, ease: "elastic" }
+      { duration: 6, x: 4, y: -33, ease: "elastic" }
     );
 
     gsap.fromTo(
